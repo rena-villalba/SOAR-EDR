@@ -81,5 +81,15 @@ If the user selects "No", a Slack message is sent, warning that the machine was 
 <img width="665" alt="12 testing_rule" src="https://github.com/user-attachments/assets/6750cd2e-8ddd-40b5-af79-840c8e79e30b" />
 <img width="817" alt="13 detection_caught" src="https://github.com/user-attachments/assets/d4e76892-6e02-4fa0-93ba-52e7d88b021f" />
 
+*Img 14 & Img 15: Tines workflow generated*<br>
+![14 Tines](https://github.com/user-attachments/assets/a5d45724-5f50-478b-8595-1550f16d356e)
+![15 Tines](https://github.com/user-attachments/assets/3534d388-0f6c-485d-a0a4-67ac4a31bc05)
 
+*Img 16: Slack message wit the detection caught and the case where the user didn't isolate the machine*<br>
+<img width="503" alt="16 slack_mssg" src="https://github.com/user-attachments/assets/c7522924-0fb2-4b13-8a78-e9062ed29987" />
 
+*Img 17: Email alert*<br>
+<img width="448" alt="17 email_alert" src="https://github.com/user-attachments/assets/e4130667-ec6f-45ae-aaa3-dad067ece1f9" />
+
+*Img 18: Case where the machine has been isolated*<br>
+![18 isolated_machine](https://github.com/user-attachments/assets/155fe2c6-8bcf-43cf-956a-2a31fbce7d6d)
