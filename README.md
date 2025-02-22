@@ -31,20 +31,20 @@ Pre-Conditions:
 
 1. Threat Simulation & Detection
 
--Deploy an infected machine with a malicious executable designed to steal system passwords.
--Monitor system events using LimaCharlie to detect suspicious activity.
--Generate an alert when the malicious process is identified.
+- Deploy an infected machine with a malicious executable designed to steal system passwords.
+- Monitor system events using LimaCharlie to detect suspicious activity.
+- Generate an alert when the malicious process is identified.
 
 2. Automated Response via Tines
 
--Notification Phase:
+- Notification Phase:
 Send an alert notification via Slack and Email containing details of the detected event.
 
--User Decision Point:
+- User Decision Point:
 Prompt the user with event details, including the affected endpoint.
 Ask if the infected machine should be isolated.
 
--Isolation or Warning Response:
+- Isolation or Warning Response:
 If the user selects "Yes", LimaCharlie isolates the machine from the network, and a confirmation message is sent via Slack.
 If the user selects "No", a Slack message is sent, warning that the machine was not isolated and requires further investigation.
 
@@ -64,7 +64,7 @@ If the user selects "No", a Slack message is sent, warning that the machine was 
 *Img 6: Confirm that LimaCharlie is correctly installed and running*<br>
 <img width="444" alt="6 confirm_lc" src="https://github.com/user-attachments/assets/5ae12316-1b4d-456d-ba7d-17766fdd966d" />
 
-*Img 7: Download the Lazage application from the github repository (https://github.com/AlessandroZ/LaZagne)*<br>
+*Img 7: Download the Lazagne application from the github repository (https://github.com/AlessandroZ/LaZagne)*<br>
 ![7 lazagne](https://github.com/user-attachments/assets/8f943c76-1d1f-4e5a-b3dc-c6a5dfa01a9b)
 
 *Img 8: Running the Lazagne application to generate some telemetry*<br>
@@ -77,7 +77,7 @@ If the user selects "No", a Slack message is sent, warning that the machine was 
 <img width="427" alt="10 detection_rule" src="https://github.com/user-attachments/assets/d917579e-541b-4b51-999a-bf23853785d2" />
 <img width="228" alt="11 respond_rule" src="https://github.com/user-attachments/assets/d04c24f4-fcfe-46a2-8281-e0ea4805b150" />
 
-*Img 12 & Img 13: Testing the rule with the raw data from the "NEW PROCESS" and checking at the "Detection" section the event get caught*<br>
+*Img 12 & Img 13: Testing the rule with the raw data using the "NEW PROCESS" and checking at the "Detection" section the event get caught*<br>
 <img width="665" alt="12 testing_rule" src="https://github.com/user-attachments/assets/6750cd2e-8ddd-40b5-af79-840c8e79e30b" />
 <img width="817" alt="13 detection_caught" src="https://github.com/user-attachments/assets/d4e76892-6e02-4fa0-93ba-52e7d88b021f" />
 
@@ -85,7 +85,7 @@ If the user selects "No", a Slack message is sent, warning that the machine was 
 ![14 Tines](https://github.com/user-attachments/assets/a5d45724-5f50-478b-8595-1550f16d356e)
 ![15 Tines](https://github.com/user-attachments/assets/3534d388-0f6c-485d-a0a4-67ac4a31bc05)
 
-*Img 16: Slack message wit the detection caught and the case where the user didn't isolate the machine*<br>
+*Img 16: Slack message with the detection caught and the case where the user didn't isolate the machine*<br>
 <img width="503" alt="16 slack_mssg" src="https://github.com/user-attachments/assets/c7522924-0fb2-4b13-8a78-e9062ed29987" />
 
 *Img 17: Email alert*<br>
